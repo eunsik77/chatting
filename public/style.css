@@ -1,0 +1,62 @@
+.container {
+    background: url(./images/1.jpg) no-repeat center;
+    height: 100%;
+    background-size: cover;
+}
+
+
+body,
+html {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+    display: flex;
+}
+
+.left {
+    color: white;
+    display: flex;
+}
+
+.left p {
+    margin-left: 15px;
+}
+
+#btn1 {
+    font-size: 30px;
+}
+
+.container img {
+    width: 80px;
+    height: 100px;
+    display: block;
+    object-fit: cover;
+    margin-left: 20px;
+
+}
+
+.title {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.title img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.chat {
+    float: unset;
+    font-size: 50px;
+}
+
+.view {
+    list-style: none;
+    height: 55%;
+}
